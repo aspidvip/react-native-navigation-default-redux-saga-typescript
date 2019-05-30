@@ -1,0 +1,4 @@
+#Wed May 29 15:21:00 VLAT 2019
+base.0=/Users/aspid/Desktop/Projects/info/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

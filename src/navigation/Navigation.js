@@ -51,7 +51,7 @@ const firstScreen = () => {
                     color: 'white',
                   },
                   title: {
-                    text: 'Добро пожаловать',
+                    text: 'Welcome Test',
                   },
                   visible: true,
                 },

@@ -48,9 +48,9 @@ export default class WelcomePage extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-        <Text style={styles.welcome}>qweqwe</Text>
+        <Text style={styles.welcome}>First Page</Text>
         <TouchableHighlight onPress={this.handlePress}>
-          <Text>Next</Text>
+          <Text>Next Page</Text>
         </TouchableHighlight>
       </ScrollView>
     );

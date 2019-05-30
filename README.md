@@ -1,5 +1,5 @@
 <h1 align="center">
-  React Native Navigation + Redux + Saga
+  React Native Navigation + Redux + Saga + TypeScript
 </h1>
 
 ## How to run?
@@ -21,6 +21,5 @@ $ react-native run-android
 Run iOS Project.
 
 ```shell
-$ cd ios && pod install
-$ cd .. && react-native run-ios
+$ react-native run-ios
 ```

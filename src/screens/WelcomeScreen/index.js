@@ -5,7 +5,7 @@ import { ScrollView, StyleSheet, Text, TouchableHighlight } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#FFF',
   },
   welcome: {
     fontSize: 20,
@@ -34,7 +34,6 @@ export default class WelcomePage extends Component {
             largeTitle: {
               visible: true,
               fontSize: 30,
-              color: 'white',
             },
             title: {
               text: 'Test',
@@ -48,9 +47,9 @@ export default class WelcomePage extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-        <Text style={styles.welcome}>First Page</Text>
+        <Text style={styles.welcome}>qweqwe</Text>
         <TouchableHighlight onPress={this.handlePress}>
-          <Text>Next Page</Text>
+          <Text>Next</Text>
         </TouchableHighlight>
       </ScrollView>
     );

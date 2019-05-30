@@ -17,11 +17,7 @@ interface State {
   enthusiasmLevel: number;
 }
 
-export class Test extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-  }
-
+export default class Test extends React.Component<Props, State> {
   static defaultProps = {
     gogo: 0,
   };
